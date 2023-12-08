@@ -3,4 +3,4 @@
 #include <stdint.h>
 #include <stdlib.h>
 
-int32_t add_numbers(int32_t a, int32_t b);
+int32_t gen_proof(int32_t a, int32_t b);

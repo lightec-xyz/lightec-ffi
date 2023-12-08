@@ -2,9 +2,9 @@ package lightec_ffi
 
 import "testing"
 
-func TestAdd(t *testing.T) {
+func TestGenProof(t *testing.T) {
 	proof := GenProof{}
-	sum, err := proof.add(1, 2)
+	sum, err := proof.GenProof(1, 2)
 	if err != nil {
 		t.Fatal(err)
 	}
